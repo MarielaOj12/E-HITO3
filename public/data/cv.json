@@ -1,0 +1,171 @@
+{
+  "configuracion": {
+    "tituloNavegador": "E-HITO3 | Portafolio personal",
+    "idioma": "es",
+    "copyright": "iPortfolio · Ruth Zeballos",
+    "mensajeFormularioSinCorreo": "Para habilitar el formulario, agrega un correo de contacto en data/cv.json. No se ha enviado ningún mensaje.",
+    "mensajeAbrirCorreo": "Se abrirá tu aplicación de correo para que confirmes y envíes el mensaje."
+  },
+  "perfil": {
+    "nombre": "Ruth Zeballos",
+    "titulo_profesional": "Estudiante de Ingeniería de Sistemas",
+    "descripcion_about": "Conozco y desarrollo proyectos académicos relacionados con ingeniería de sistemas, desarrollo web y tecnología.",
+    "descripcion_corta": "Me interesa aprender, diseñar y desarrollar soluciones tecnológicas mediante proyectos académicos.",
+    "detalle": "Este portafolio reúne parte de mi formación, herramientas que utilizo y proyectos que he desarrollado durante mis estudios.",
+    "ciudad": "Cochabamba, Bolivia",
+    "grado": "Universitario (en curso)",
+    "sitio_web": "",
+    "foto": "assets/img/Ruth.jpeg",
+    "portada": "assets/img/portada-personal.jpg",
+    "roles": [
+      "Estudiante de Ingeniería de Sistemas",
+      "Desarrollo web",
+      "Proyectos tecnológicos"
+    ],
+    "redes": [
+      {
+        "nombre": "GitHub",
+        "icono": "bi-github",
+        "url": ""
+      },
+      {
+        "nombre": "LinkedIn",
+        "icono": "bi-linkedin",
+        "url": ""
+      },
+      {
+        "nombre": "Instagram",
+        "icono": "bi-instagram",
+        "url": ""
+      }
+    ]
+  },
+  "navegacion": [
+    {
+      "id": "hero",
+      "nombre": "Inicio",
+      "icono": "bi-house"
+    },
+    {
+      "id": "about",
+      "nombre": "Acerca de",
+      "icono": "bi-person"
+    },
+    {
+      "id": "skills",
+      "nombre": "Habilidades",
+      "icono": "bi-bar-chart"
+    },
+    {
+      "id": "resume",
+      "nombre": "Currículum",
+      "icono": "bi-file-earmark-text"
+    },
+    {
+      "id": "contact",
+      "nombre": "Contacto",
+      "icono": "bi-envelope"
+    }
+  ],
+  "textos": {
+    "accesibilidad": {
+      "alternarMenu": "Abrir o cerrar el menú de navegación",
+      "menuPrincipal": "Navegación principal",
+      "fotoPerfil": "Fotografía de perfil",
+      "fotoPortada": "Retrato personal para la portada",
+      "volverArriba": "Volver al inicio"
+    },
+    "hero": {
+      "soy": "Soy"
+    },
+    "etiquetas": {
+      "ciudad": "Ciudad:",
+      "grado": "Formación:",
+      "sitioWeb": "Sitio web:",
+      "correo": "Correo:"
+    },
+    "secciones": {
+      "acerca": {
+        "titulo": "Acerca de"
+      },
+      "habilidades": {
+        "titulo": "Habilidades",
+        "descripcion": "Herramientas y tecnologías que continúo aprendiendo y utilizando en mis proyectos académicos."
+      },
+      "curriculum": {
+        "titulo": "Currículum",
+        "descripcion": "Mi trayectoria de formación y experiencias académicas en el área de Ingeniería de Sistemas.",
+        "resumen": "Perfil académico",
+        "educacion": "Educación",
+        "experiencia": "Experiencia académica"
+      },
+      "contacto": {
+        "titulo": "Contacto",
+        "descripcion": "Un espacio para compartir ideas, consultas y colaboraciones académicas.",
+        "ubicacion": "Ubicación",
+        "telefono": "Teléfono",
+        "correo": "Correo",
+        "nombreCampo": "Nombre",
+        "correoCampo": "Correo electrónico",
+        "asuntoCampo": "Asunto",
+        "mensajeCampo": "Mensaje",
+        "enviar": "Preparar mensaje"
+      }
+    },
+    "pie": {
+      "derechos": "Todos los derechos reservados.",
+      "diseno": "Plantilla iPortfolio de"
+    }
+  },
+  "resumen": {
+    "titulo": "Ruth Zeballos",
+    "descripcion": "Estudiante de Ingeniería de Sistemas interesada en el desarrollo de aplicaciones, interfaces web y soluciones tecnológicas."
+  },
+  "habilidades": [
+    {
+      "nombre": "HTML",
+      "porcentaje": 85
+    },
+    {
+      "nombre": "CSS",
+      "porcentaje": 80
+    },
+    {
+      "nombre": "JavaScript",
+      "porcentaje": 70
+    },
+    {
+      "nombre": "PHP",
+      "porcentaje": 75
+    },
+    {
+      "nombre": "Python",
+      "porcentaje": 70
+    },
+    {
+      "nombre": "Angular",
+      "porcentaje": 65
+    }
+  ],
+  "educacion": [
+    {
+      "carrera": "Ingeniería de Sistemas",
+      "periodo": "En curso",
+      "institucion": "Universidad Privada Unifranz",
+      "descripcion": "Formación en programación, bases de datos, ingeniería de software y desarrollo de sistemas."
+    }
+  ],
+  "experiencia": [
+    {
+      "cargo": "Proyectos académicos",
+      "periodo": "En curso",
+      "lugar": "Formación universitaria",
+      "descripcion": "Desarrollo de aplicaciones web y móviles y participación en proyectos académicos. No corresponde a experiencia laboral certificada."
+    }
+  ],
+  "contacto": {
+    "ubicacion": "Cochabamba, Bolivia",
+    "telefono": "",
+    "correo": ""
+  }
+}

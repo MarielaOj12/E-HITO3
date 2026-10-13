@@ -1,0 +1,46 @@
+/**
+ * Adaptaciones mínimas para la foto personal y la accesibilidad.
+ * No modifica el archivo original assets/css/main.css.
+ */
+.header .header-toggle {
+  border: 0;
+}
+
+.hero img.hero-personal-photo {
+  object-position: center top;
+}
+
+/* Garantiza el contraste sobre un retrato de interior con fondo claro. */
+.hero:before {
+  background: linear-gradient(
+    90deg,
+    rgba(4, 9, 17, 0.72) 0%,
+    rgba(4, 9, 17, 0.43) 46%,
+    rgba(4, 9, 17, 0.20) 100%
+  );
+}
+
+/* Mantiene las barras legibles aunque el usuario reduzca las animaciones. */
+.skills .progress-bar {
+  transition: width 0.9s ease;
+}
+
+@media (max-width: 768px) {
+  .hero img.hero-personal-photo {
+    object-position: 46% top;
+  }
+
+  .hero h2 {
+    font-size: clamp(2rem, 10vw, 3.5rem);
+  }
+
+  .hero:before {
+    background: rgba(4, 9, 17, 0.54);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skills .progress-bar {
+    transition: none;
+  }
+}
